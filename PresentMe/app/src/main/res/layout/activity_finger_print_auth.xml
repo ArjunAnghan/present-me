@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FingerPrintAuth">
+
+
+   <ImageView
+       android:id="@+id/fingerImage"
+       android:layout_width="390dp"
+       android:layout_height="310dp"
+       android:src="@drawable/fp"
+       app:layout_constraintBottom_toTopOf="@+id/fingerText"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/fingerText"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/fingerImage"
+       android:textSize="25dp"
+       android:textStyle="bold"
+       android:fontFamily="serif"
+       android:textColor="#292929"
+       android:textAlignment="center"
+       android:text="Place your finger on the fingerprint Scanner"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

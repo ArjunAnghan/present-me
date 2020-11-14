@@ -59,7 +59,4 @@
 - Watch a [full demo](https://drive.google.com/file/d/1X4Jkzv1MU37NBFuVUGwuuBEZYH0ey0Q4/view)
 
 
-## Authors
 
-* **Nirav C. Pansuriya**
-* **Anuj H. Patel** 
